@@ -1,113 +1,68 @@
-🏷️ Simple Auction App
+# Simple Auction Smart Contract (Soroban)
 
-A Simple Auction Application that allows users to create auction listings, place bids, and determine the winning bidder. The project demonstrates basic concepts of web development such as user authentication, CRUD operations, and real-time bidding logic.
+## Project Description
 
-📌 Features
+Simple Auction is a decentralized auction smart contract built using **Soroban on the Stellar network**.  
+The contract enables users to place bids in a transparent and trustless environment where the blockchain automatically manages the auction logic.
 
-🔐 User Authentication
+Traditional auction systems rely on centralized platforms to manage bids and determine winners. This project demonstrates how **smart contracts can remove intermediaries**, ensuring fairness and transparency for all participants.
 
-User registration
+The contract stores and updates the highest bid and highest bidder directly on-chain.
 
-Login and logout functionality
+---
 
-📦 Create Auction Listings
+## What It Does
 
-Users can create new auction items
+The smart contract allows users to participate in a decentralized auction process.
 
-Add title, description, image, and starting bid
+1. The auction is initialized with a starting bid.
+2. Participants submit bids through the contract.
+3. Each new bid must be higher than the current highest bid.
+4. The contract updates the highest bid and highest bidder automatically.
+5. Anyone can query the contract to see the current auction status.
 
-💰 Place Bids
+All data is stored on-chain, making the auction **secure, transparent, and tamper-proof**.
 
-Users can bid on listed items
+---
 
-Bid must be higher than the current highest bid
+## Features
 
-📊 Auction Status
+- Built using **Soroban Smart Contracts**
+- Runs on the **Stellar blockchain**
+- Decentralized bidding system
+- Automatic highest bid validation
+- On-chain storage of auction data
+- Transparent and trustless auction process
+- Lightweight and beginner-friendly contract design
 
-Shows current highest bid
+---
 
-Displays auction winner when auction closes
+## Deployed Smart Contract Link
 
-⭐ Watchlist (Optional)
+Job Submission
 
-Users can save items to their watchlist
+(Replace this section with the deployed contract link or transaction hash after deployment.)
 
-🛠️ Technologies Used
+---
 
-Backend: Python / Django
+## Tech Stack
 
-Frontend: HTML, CSS, Bootstrap
+- Soroban Smart Contracts
+- Rust
+- Stellar Blockchain
 
-Database: SQLite
+---
 
-Version Control: Git & GitHub
+## Future Improvements
 
-📂 Project Structure
-simple-auction-app/
-│
-├── auctions/
-│   ├── models.py
-│   ├── views.py
-│   ├── urls.py
-│   ├── forms.py
-│
-├── templates/
-│   ├── index.html
-│   ├── listing.html
-│   ├── create_listing.html
-│
-├── static/
-│   ├── css/
-│
-├── db.sqlite3
-├── manage.py
-└── README.md
-⚙️ Installation
+- Auction deadline and timer
+- Automatic auction closing
+- Refund system for outbid users
+- NFT or digital asset auctions
+- Frontend interface for interacting with the contract
 
-1️⃣ Clone the repository
+---
 
-git clone https://github.com/yourusername/simple-auction-app.git
+## Author
 
-2️⃣ Navigate to project folder
-
-cd simple-auction-app
-
-3️⃣ Install dependencies
-
-pip install -r requirements.txt
-
-4️⃣ Run migrations
-
-python manage.py migrate
-
-5️⃣ Start the server
-
-python manage.py runserver
-
-6️⃣ Open in browser
-
-http://127.0.0.1:8000/
-📖 How It Works
-
-Users register and log in to the platform.
-
-Sellers create auction listings with a starting price.
-
-Buyers place bids on items.
-
-The system records the highest bid.
-
-When the auction closes, the highest bidder wins the item.
-
-🚀 Future Improvements
-
-Real-time bidding using WebSockets
-
-Payment gateway integration
-
-Email notifications for bids
-
-Auction timer countdown
-
-Admin dashboard
-
+Developed as part of a **Web3 / Stellar Soroban learning project** demonstrating decentralized auction mechanisms.
