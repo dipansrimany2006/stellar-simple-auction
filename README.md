@@ -38,10 +38,8 @@ All data is stored on-chain, making the auction **secure, transparent, and tampe
 ---
 
 ## Deployed Smart Contract Link
-
-Job Submission
-
-(Replace this section with the deployed contract link or transaction hash after deployment.)
+Simple Auction
+CBQYE25DEZ72FCQ5CTYR5RQGBHCDIBK3NTTCJOG6SXSVKHV7CZDTMP4R
 
 ---
 
